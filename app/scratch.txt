@@ -1,0 +1,80 @@
+
+amplifying questions
+How important is it that your spoon-mate be a big reader?
+How important is it that your spoon-mate be religious?
+How important is it that your spoon-mate have an undergraduate degree (or work towards one)?
+How important is it that your spoon-mate have a graduate degree (or work towards one)?
+How important is it that your spoon-mate be an exerciser?
+How important is it that your spoon-mate doesn't drink?
+How important is it that your spoon-mate be a nerd?
+How important is it that your spoon-mate have kids?
+How important is it that your spoon-mate be childfree?
+How important is it that your spoon-mate want kids in the future?
+How important is it that your spoon-mate has never been married?
+What gender are you looking for in a spoon-mate?
+
+
+
+yes/no questions
+Do you read more than 3 books per month (for fun, not work)?
+Are you religious?
+Do you have an undergraduate degree?
+Do you have a graduate degree?
+Do you exercise more than 5 times per week?
+Do you drink more than 2 drinks per week?
+Do you consider yourself a nerd?  scale of 0 to 10
+Do you have kids?
+Have you been married before?
+How do you identify, in your sexuality?  Gay, lesbian, bi, straight, trans, do not identify with any of the above
+Do you want kids in the future?
+How do you identify, in your gender?  Male, Female, Non-binary, Transgender, do not identify with any of the above
+
+
+
+profile questions that don't affect scores
+What is your favorite snack?
+What motivates you to get out of bed in the morning?
+What is your most bizarre talent or quirk?
+What are some of your interests?
+What's an accomplishment you're most proud of?
+
+
+
+yes/no question * amplifying question = total score
+
+compare questions against each other
+
+sum of A.q1 compared to sum of B.q1
+
+if less than 3, compare A.q1 to B.q1 ...
+
+add those, to get a total difference
+
+
+awkward questions
+
+scale of 1 to 5
+
+How nervous are you in social settings?
+Do you feel like there are social rules you don't know about?
+Do you feel like people don't really get your sense of humor?
+Do you feel like you need to fill the silence with the talking?
+How often do you interrupt conversation with seemingly random thoughts?
+How often do you feel like you're being weird?
+Do you know when you're being weird?
+When you're being weird, do you avoid others, or are you more of a "go big or go home" type?
+Are your friends just as awkward as you are?
+Will you share your waffles with me?
+
+
+
+
+
+
+
+
+
+
+
+
+
