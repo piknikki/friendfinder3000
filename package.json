@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder3000",
+  "version": "1.0.0",
+  "description": "# Overview This \"friend finder\" is an app designed to match people who want to hang out.  It will make matches based on answers to survey questions, and compatibility will be determined by the closeness of the answers of two people.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piknikki/friendfinder3000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piknikki/friendfinder3000/issues"
+  },
+  "homepage": "https://github.com/piknikki/friendfinder3000#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
