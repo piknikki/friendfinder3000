@@ -20,7 +20,7 @@
 
     <link rel="shortcut icon" href="images/sag.ico" type="image/x-icon">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
@@ -44,10 +44,11 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact</a>
+                        <a class="nav-link" href="/survey">Get Awkwardly Matched</a>
+
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="survey.html">Get Awkwardly Matched</a>
+                        <a class="nav-link" href="/api/friends">See APIs</a>
                     </li>
                 </ul>
             </div>
@@ -62,7 +63,7 @@
             <div class="col-lg-6">
                 <h1 class="big-heading">Let's get awkward.</h1>
                 <br>
-                <form class="form-group" name="userForm" action="" method="post">
+                <form class="form-group">
                         <h4>What's your name? (required)</h4>
                         <input id="userName" type="text" name="userName" class="form-control" required>
                         <br>
@@ -78,37 +79,107 @@
 <!-- Features -->
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-8 col-md-12">
+        <div class="col-lg-10 col-md-12">
             <div class="card">
                 <div class="card-header">
                     <h3>Please answer the following questions so we can match you.</h3>
                 </div>
                 <div class="card-body">
                     <form class="form-group" name="form" action="/survey" method="post">
-                        <h3>Question 1</h3>
-                        <select class="form-control" name="question1" id="question1">
-                            <option value="1">1 (strongly DISagree)</option>
-                            <option value="2">2 (middle of the road)</option>
-                            <option value="3">3 (strongly agree)</option>
+                        <h3>Do you get nervous in social settings?</h3>
+                        <select class="custom-select" name="question1" id="question1">
+                            <option value="1">1 (no, I'm at ease in public)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (ACK!)</option>
                         </select>
                         <br>
-                        <h3>Question 2</h3>
-                        <select class="form-control" name="question2" id="question2">
-                            <option value="1">1 (strongly DISagree)</option>
-                            <option value="2">2 (middle of the road)</option>
-                            <option value="3">3 (strongly agree)</option>
+                        <h3>Do you feel like there are social rules you don't know about?</h3>
+                        <select class="custom-select" name="question2" id="question2">
+                            <option value="1">1 (no, I generally get it)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (yes, I definitely didn't get the memo)</option>
                         </select>
 
-                        <h3>Question 3</h3>
-                        <select class="form-control" name="question3" id="question3">
-                            <option value="1">1 (strongly DISagree)</option>
-                            <option value="2">2 (middle of the road)</option>
-                            <option value="3">3 (strongly agree)</option>
+                        <h3>Do you feel like people don't really get your sense of humor?</h3>
+                        <select class="custom-select" name="question3" id="question3">
+                            <option value="1">1 (no, generally people get me)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (yes! they don't understand me!)</option>
+                        </select>
+
+                        <h3>Do you feel like you need to fill the silence with the talking?</h3>
+                        <select class="custom-select" name="question3" id="question4">
+                            <option value="1">1 (nope, silence is golden)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (all the talking)</option>
+                        </select>
+
+                        <h3>Do you frequently interrupt conversation with seemingly random thoughts?</h3>
+                        <select class="custom-select" name="question3" id="question5">
+                            <option value="1">1 (not really)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (all the freaking time)</option>
+                        </select>
+
+                        <h3>Do you often feel like you're being weird??</h3>
+                        <select class="custom-select" name="question3" id="question6">
+                            <option value="1">1 (not really)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (always)</option>
+                        </select>
+
+                        <h3>Do you know when you're being weird?</h3>
+                        <select class="custom-select" name="question3" id="question7">
+                            <option value="1">1 (not really)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (always)</option>
+                        </select>
+
+                        <h3>When you're being weird, do you avoid others (1), or are you more of a "go big or go home" type (5)?</h3>
+                        <select class="custom-select" name="question3" id="question8">
+                            <option value="1">1 (avoid)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (all in)</option>
+                        </select>
+
+                        <h3>Are your friends just as awkward as you are?</h3>
+                        <select class="custom-select" name="question3" id="question9">
+                            <option value="1">1 (nope, it's just me)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (YES!!)</option>
+                        </select>
+
+                        <h3>Will you share your waffles with me?</h3>
+                        <select class="custom-select" name="question3" id="question10">
+                            <option value="1">1 (wow. just. wow. talk about awkward.)</option>
+                            <option value="2">2 </option>
+                            <option value="3">3 </option>
+                            <option value="4">4 </option>
+                            <option value="5">5 (Of course!! Waffles are for the sharing!)</option>
                         </select>
 
 
                     </form>
-                    <input class="btn" id="add-btn" type="submit" value="Submit">
+
+                    <button type="submit" id="add-btn" class="btn btn-lg match-button">Make it more awkward</button>
 
 
                 </div>
@@ -116,24 +187,34 @@
         </div>
     </div>
 
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">
+                        <strong>Your Most Awkward Match</strong>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchPhoto" src="" alt="" style="max-width: 350px;" />
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-defaul" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 </div>
 
 
 
 
-
-<!-- Call to Action -->
-
-<!--<section id="cta">-->
-<!--    <div class="call-to-action">-->
-<!--        <h3 class="find-love">Find the True Love of Your Life Today.</h3>-->
-<!--        <button type="button" class="btn btn-lg download-button"><i class="far fa-heart"></i> Go to the Survey</button>-->
-
-<!--    </div>-->
-<!--</section>-->
-
-
-<!-- Footer -->
 
 <footer id="footer">
 
@@ -151,37 +232,40 @@
 
 <script type="text/javascript">
 
-
-
     $("#add-btn").on("click", function(event) {
         event.preventDefault();
-        var newUser= {
+
+        var ques1 = $("#question1").val();
+        var ques2 = $("#question2").val();
+        var ques3 = $("#question3").val();
+        var ques4 = $("#question4").val();
+        var ques5 = $("#question5").val();
+        var ques6 = $("#question6").val();
+        var ques7 = $("#question7").val();
+        var ques8 = $("#question8").val();
+        var ques9 = $("#question9").val();
+        var ques10 = $("#question10").val();
+
+        var newFriend= {
             userName: $("#userName").val().trim(),
             userPhoto: $("#userPhoto").val().trim(),
             scores: [
-                $("#question1"),
-                $("#question2"),
-                $("#question3")
+                ques1, ques2, ques3, ques4, ques5, ques6, ques7, ques8, ques9, ques10
             ]
         };
-        $.post("/api/survey", newUser).then(function(data) {
-            if (data) {
-                alert("Your info has been added!");
-            } else {
-                alert("uh oh. something went wrong.")
-            }
+
+        // new user is the request sent by the client, to this route on the server
+        $.post("/api/friends", newFriend).then(function(data) {
+
+            $("#matchName").text(data.matchName);
+            $("#matchPhoto").attr('src', data.matchPhoto);
+
+            $("#resultsModal").modal('toggle');
         });
     });
 </script>
-
 </body>
-
 </html>
-
-
-
-
-
 
 
 

@@ -94,13 +94,13 @@ a.nav-link {
 
 /*.  download buttons. */
 
-.download-button {
+.match-button {
     background-color: #EC5D57;
     color: white;
     margin: 5% 3% 5% 0;
 }
 
-/*  featurres section */
+/*  features section */
 
 #features {
     padding: 7% 15%;
@@ -124,35 +124,12 @@ a.nav-link {
 }
 
 
-/*. testimonials  */
-#testimonials {
-    text-align: center;
-    background-color: #EC5D57;
-    color: #fff;
-
-}
-
-#press {
-    padding: 3%;
-    text-align: center;
-    background-color: #EC5D57;
-}
 
 
 
-.testimonial-image {
-    width: 10%;
-    border-radius: 50%;
+.custom-select {
     margin: 20px;
-}
-
-.press-image {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-.carousel-item {
-    padding: 7% 15%;
+    width: 80%;
 }
 
 
