@@ -52,7 +52,7 @@ var friends = [
 },
 {
     "name": "Big Bird",
-    "photo": "https://s3.awkwardfamilyphotos.com/wp-content/uploads/2018/07/16130933/Screen-Shot-2018-07-09-at-2.00.49-PM-300x300.jpg",
+    "photo": "https://s3.awkwardfamilyphotos.com/wp-content/uploads/2018/07/16130933/Screen-Shot-2018-07-09-at-2.00.49-PM-300x251.jpg",
     "scores": [
     "3",
     "3",
