@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df318ac6-3a18-469a-aba9-25cdafef0c21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/data/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/data/friends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/public/survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/survey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/apiRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routing/htmlRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routing/htmlRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scratch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/scratch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="265" column="9" selection-start-line="265" selection-start-column="9" selection-end-line="265" selection-end-column="9" />
+            <state relative-caret-position="343">
+              <caret line="256" selection-start-line="256" selection-end-line="256" />
               <folding>
                 <element signature="e#9630#9637#1" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -200,16 +193,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554551763714</updated>
-      <workItem from="1554551765544" duration="17700000" />
+      <workItem from="1554551765544" duration="17957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17700000" />
+    <option name="totallyTimeSpent" value="17957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="80" width="953" height="879" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project Explorer" />
       <window_info id="Job Explorer" />
@@ -294,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="265" column="9" selection-start-line="265" selection-start-column="9" selection-end-line="265" selection-end-column="9" />
+        <state relative-caret-position="343">
+          <caret line="256" selection-start-line="256" selection-end-line="256" />
           <folding>
             <element signature="e#9630#9637#1" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

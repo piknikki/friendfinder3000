@@ -197,7 +197,7 @@
                     </h2>
                 </div>
                 <div class="modal-body">
-                    <h2 id="matchName"></h2>
+                    <h3 id="matchName"></h3>
                     <img id="matchPhoto" src="" alt="" style="max-width: 350px;" />
                 </div>
 
@@ -254,7 +254,7 @@
             ]
         };
 
-        // new user is the request sent by the client, to this route on the server
+
         $.post("/api/friends", newFriend).then(function(data) {
 
             $("#matchName").text(data.matchName);
