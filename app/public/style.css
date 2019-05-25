@@ -34,10 +34,11 @@ p {
 #title {
     background-color: #FFD450;
     color: #ffffff;
+
 }
 
 .container-fluid {
-    padding: 3% 15% 15%;
+    padding: 5% 15% 20%;
 }
 
 .tind-pic {
@@ -45,6 +46,7 @@ p {
     width: 50%;
     position: absolute;
     right: 20%;
+    padding-bottom: 20px;
 }
 
 
